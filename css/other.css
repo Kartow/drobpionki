@@ -1,0 +1,183 @@
+@keyframes fadeIn {
+    0% {opacity: 0};
+    100% {opacity: 1};
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1};
+    100% {opacity: 0}
+}
+
+@keyframes dropdown {
+    from{
+        transform: scaleY(0%);
+    }
+
+    to{
+        transform: scaleY(100%);
+    }
+}
+
+.fade-in{
+    animation: fadeIn 2s;
+}
+
+.fade-out{
+    animation: fadeOut 2s;
+}
+
+.fade-in-fast{
+    animation: fadeIn 0.5s;
+}
+
+.fade-out-fast{
+    animation: fadeOut 0.5s;
+}
+
+::selection{
+    background-color: rgb(25, 25, 25);
+    color: rgb(245, 245, 245);
+}
+
+header>img{
+    height: 100px;
+    width: auto;
+}
+
+.header-icon{
+    height: 50px;
+    width: auto;
+}
+
+#nav-logo-a{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-900px);
+    display:flex;
+    align-items: center;
+    width: 140px;
+    height: 100%;
+}
+
+#nav-logo-a:hover{
+    cursor:pointer;
+}
+
+#nav-logo{
+    width: 140px;
+    height: auto;
+    display: none;
+    opacity: 0;
+}
+
+#swiezy-drob>h1{
+    font-family: 'Merienda', cursive;
+    font-weight: 800;
+    font-size: 4rem;
+    color:rgb(243, 183, 30);
+}
+
+#facebook img{
+    width: 50px;
+    height: 50px;
+}
+
+main h1{
+    font-family: 'Merienda', cursive;
+    color: rgb(243, 183, 30);
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+#swiezy-drob>p{
+    margin: 20px 0;
+    text-indent: 20px;
+    font-size:1.25rem;
+    text-shadow: rgba(0, 0, 0, 0.1) 0 0 15px;
+}
+
+#swiezy-drob a{
+    text-decoration: none;
+}
+
+.p-strong{
+    color: rgb(15, 36, 82);
+    text-shadow: rgba(15, 36, 82, 0.1) 0 0 15px;
+}
+
+.main-btn>img{
+    height: 100%;
+    width: auto;
+}
+
+.big-btn{
+    width:250px;
+    height: 80px;
+    font-size: 1.5rem;
+}
+
+.small-btn{
+    width:200px;
+    height: 60px;
+    font-size:1.2rem;
+}
+
+.cytat p{
+    font-size:1.6rem;
+    font-family: 'Merienda', cursive;
+    color: rgba(15, 36, 82, 0.6);
+}
+
+.cytat hr{
+    width:20%;
+}
+
+main>hr{
+    margin: 50px 0;
+}
+
+.div-2{
+    color:rgb(15, 36, 82);
+    text-indent: 35px;
+    font-size: 1.3rem;
+    line-height: 35px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+footer img{
+    height:100px;
+    width:200px;
+}
+
+.gold-underline{
+    text-decoration: underline rgb(243, 183, 30) 2px solid;
+}
+
+.blue-font{
+    color: rgb(15, 36, 82);
+}
+
+/*PRACA*/
+
+#praca-center-header>img{
+    width: 160px;
+    height: auto;
+}
+
+#praca-gallery>a{
+    width: 493px;
+    height: 493px;
+    position: relative;
+    overflow: hidden;
+}
+
+#formup{
+    scroll-margin-top: 160px;
+}
+
+.praca-center>a{
+    text-decoration: none;
+}
